@@ -1,3 +1,9 @@
-There is a problem in the memo section specifically the  ctrl+f function
+-There is a problem in the memo section specifically the  ctrl+f function
 If you enter some text, say "this is some text" and you place the cursor after "is", ctrl +F wont
 find things that you search for  before and including  "is"
+
+-go into week view and right click "quick todo" and write some text. It will apear in the top box
+of the screen, below the date and above where the time table starts. Then drag that text down
+to the time table. Youll notice that regardless of the size of the text, it will get 
+smushed down to a thin black line from margin to margin. Then, if you can, try and resize the 
+black line to expose the text. Ive noticed that sometimes it bugs out.
