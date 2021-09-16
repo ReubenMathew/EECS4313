@@ -1,0 +1,3 @@
+There is a problem in the memo section specifically the  ctrl+f function
+If you enter some text, say "this is some text" and you place the cursor after "is", ctrl +F wont
+find things that you search for  before and including  "is"
