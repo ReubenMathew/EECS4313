@@ -10,20 +10,20 @@ Luke Linigari luke5011@my.yorku.ca
 
 ### Program (or component) name:
 
-BORG calendar, Memo tab specifically
+BORG calendar, Memo tab specifically.
 
 ### Configuration(s):
 
 Windows 10
-x64-based processor
+x64-based processor.
 
 ### Report type:
 
-Design Issue
+Design Issue.
 
 ### Reproducibility:
 
-Yes can be reproduced.Changing window size or apearnace does not affect reproducibility
+Yes, can be reproduced. Changing window size or appearance does not affect reproducibility.
 
 ### Severity:
 
@@ -31,7 +31,7 @@ Minor.
 
 ### Problem summary:
 
-ctrl-f in the memo tab fails if the target text is anywhere behind the cursor
+The find function (ctrl-f) in memo tab only searches past the cursor.
 
 ### Problem description:
 
@@ -41,7 +41,7 @@ How to reproduce:
 1. Load the program
 2. Navigate to the memos tab
 3. write any string of text, can be a single word or a sentence
-4. after finishing writing, dont move the cursor
+4. ensure your cursor is placed after written text
 5. use ctrl-f and search for any char or string you typed
 6. you will observe "not Found - End of search..."
 
