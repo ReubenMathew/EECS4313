@@ -1,5 +1,3 @@
-# Task 1
-
 # Bug Report 1
 
 ## Bug Report Title:
