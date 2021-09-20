@@ -1,4 +1,8 @@
-## Find Function (CTRL-F) fails when target text is behind cursor:
+# Bug Report 1
+
+## Bug Report Title:
+
+Find Function (CTRL-F) fails when target text is behind cursor
 
 ### Reported by:
 
