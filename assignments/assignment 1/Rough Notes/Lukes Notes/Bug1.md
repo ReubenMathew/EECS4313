@@ -10,11 +10,11 @@ Luke Linigari luke5011@my.yorku.ca
 
 ### Date reported:
 
-9/16/21
+9-16-21
 
 ### Program (or component) name:
 
-BORG calendar, Memo tab specifically.
+BORG calendar - Memo tab
 
 ### Configuration(s):
 
@@ -31,7 +31,7 @@ Yes, can be reproduced. Changing window size or appearance does not affect repro
 
 ### Severity:
 
-Minor.
+Minor Issue.
 
 ### Problem summary:
 
@@ -55,4 +55,4 @@ How to reproduce:
 
 ### New or old bug:
 
-New
+New Bug.
