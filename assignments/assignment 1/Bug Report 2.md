@@ -7,7 +7,7 @@ Duplicated Project Link
 Reuben Ninan (216315509)
 <!-- The bug reporter’s name and contact information. -->
 ### Date reported:
-2021-09-17
+09-17-21
 <!-- The date when this bug report is filed. -->
 ### Program (or component) name:
 BORG Calendar - Project Tab View
@@ -21,13 +21,20 @@ x64-based processor
 Bug Report
 <!-- Is this a bug (e.g., coding error, design issue or documentation mismatch) or feature enhancement? -->
 ### Reproducibility:
-Yes it is reproducible with a variety of inputs.
+Yes it is reproducible with any ASCII or Unicode character type labelled projects that are created and linked within the BORG Calendar program.
+
+This bug was tested with a variety of conditions, namely:
+- Varying Project name length
+- Varying the properties and fields of the project
+- Varying the Project description
 <!-- Yes / no / sometimes / unknown. For no/sometimes, provide as much information as you can. -->
 ### Severity:
 Minor Issue
 <!-- Is this a major issue or a minor issue? -->
 ### Problem summary:
-A visual bug occurs when linking a project you created.
+A visual bug occurs when linking a project you created. When linking an existing BORG project, it links the project twice visually.
+
+This bug can bloat the **Links** list and heavily distracts the user.
 <!-- A short summary of the problem -->
 ### Problem description:
 1. Go to the project tab
@@ -37,8 +44,13 @@ A visual bug occurs when linking a project you created.
 5. In the drop down select project click **`Ok`** 
 6. Select the project that you just named from the list
 7. notice that in the link section there are two instances of the project you just created
+
+##### Hypothesis
+I believe this problem is occuring due to a repeated function call in the view controller.
+
+![A visual depiction of the problem](Bug2.PNG)
 ### New or old bug:
-New bug
+This is a new bug as I have not found an bug report in the past that is related to this.
 <!-- Is this a new bug or an existing unfixed bug? -->
 
 
