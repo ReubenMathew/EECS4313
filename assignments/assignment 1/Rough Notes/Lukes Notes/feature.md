@@ -18,7 +18,7 @@ BORG Calendar-Appointment editor, Day View
 
 ### Report type:
 
-Feature Enhancment
+Feature Enhancement
 
 ### Feature summary:
 
@@ -26,7 +26,7 @@ Add an interactable checklist option when creating or editing a new appointment
 
 ### Feature description:
 
-As it stands, there is already an option to make checklists in the BORG calendar app. However, the checklist tab and it's contents is not accessable outside said clecklist tab. We suggest that when creating or editing apointments there should be the ability to add checklists to the appointment and have them be displayed in the day and week view.
+As it stands, there is already an option to make checklists in the BORG calendar app. However, the checklist tab and it's contents is not accessable outside said checklist tab. We suggest that when creating or editing apointments there should be the ability to add checklists to the appointment and have them be displayed in the day and week view.
 
-![Borg Button](https://github.com/ReubenMathew/EECS4313/blob/featureRequest/assignments/assignment%201/Rough%20Notes/Lukes%20Notes/button.JPG)
+![Borg Button](button.JPG)
 By clicking on the BORG button, the option to add a link to a checklist should be added. When done, this should trigger the application to visually add each checklist item from the selected checklist to the day and week view. Each checklist item should apear as they do in the checklist tab.
