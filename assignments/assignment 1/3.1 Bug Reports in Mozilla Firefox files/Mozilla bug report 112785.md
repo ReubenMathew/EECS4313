@@ -36,6 +36,13 @@ first one for each of the others.
 
 Actual Results:  First email-address apears for each reciepient.
 
+### New or old bug:
+
+Old bug
+
+The bug was found in a previous bug report link: https://bugzilla.mozilla.org/show_bug.cgi?id=111274
+
+
 <!--
 ### Things to consider in a bug report
 - Is the summary short (about 50-70 characters) and descriptive?
@@ -53,3 +60,4 @@ out of place?
 feedback, e.g. “the program will respond like this ...”, have helped?
 - Does configuration or environment change have an effect on bug reproduction? 
 -->
+
