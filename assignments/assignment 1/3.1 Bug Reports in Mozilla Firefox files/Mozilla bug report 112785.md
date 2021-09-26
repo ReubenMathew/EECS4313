@@ -16,7 +16,7 @@ MailNews: Message Display
 Windows ME x86
 <!-- The hardware and software configurations under which the bug was found and replicated. -->
 ### Report type:
-Bug Report
+Defect
 <!-- Is this a bug (e.g., coding error, design issue or documentation mismatch) or feature enhancement? -->
 ### Reproducibility:
 Always
