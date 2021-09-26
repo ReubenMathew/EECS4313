@@ -1,10 +1,15 @@
 # Assignment 1 - EECS4313
+##### Group Members
+- Reuben Ninan (216315509)
+- Luke Linigari (216307639)
+- Eric Kwok (216397150)
+- Ahmed Hagi (215043896)
 
 ## Task 1
 
 ### Bug Report 1
 
-#### Bug Report Title:
+#### Bug Report Title
 
 Find Function (CTRL-F) fails when target text is behind cursor
 
@@ -107,14 +112,12 @@ This bug can bloat the **Links** list and heavily distracts the user.
 6. Select the project that you just named from the list
 7. notice that in the link section there are two instances of the project you just created
 
-####### Hypothesis
-I believe this problem is occuring due to a repeated function call in the view controller.
+**Hypothesis**: I believe this problem is occuring due to a repeated function call in the view controller.
 
-![A visual depiction of the problem](/assets/Bug2.PNG)
+![A visual depiction of the problem](assets/Bug2.PNG)
 ##### New or old bug:
 This is a new bug as I have not found an bug report in the past that is related to this.
 <!-- Is this a new bug or an existing unfixed bug? -->
-
 
 ### Feature Enhancement
 
@@ -146,7 +149,7 @@ Add an interactable checklist option when creating or editing a new appointment
 
 As it stands, there is already an option to make checklists in the BORG calendar app. However, the checklist tab and it's contents is not accessable outside said checklist tab. We suggest that when creating or editing apointments there should be the ability to add checklists to the appointment and have them be displayed in the day and week view.
 
-![Borg Button](/assets/button.JPG)
+![Borg Button](assets/button.JPG)
 By clicking on the BORG button, the option to add a link to a checklist should be added. When done, this should trigger the application to visually add each checklist item from the selected checklist to the day and week view. Each checklist item should apear as they do in the checklist tab.
 
 ---
@@ -171,7 +174,7 @@ By clicking on the BORG button, the option to add a link to a checklist should b
 Out of the total number of issues that are of type : Bug, their current status distribution is displayed below
 
 | Status      | Closed | Open | Patch Available | Resolved | Reopened | In Progress |
-|-------------|-------:|-----:|----------------:|---------:|---------:|-------------|
+|-------------|-------:|-----:|----------------:|---------:|---------:|------------:|
 | Occurrences |  5138  |  691 |       136       |   2615   |    27    |      7      |
 
 #### 3. Among the “bug type” issue reports, which are either “fixed” or “closed”, what are minimum, average, median, and maximum bug resolution time?
