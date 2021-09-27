@@ -156,10 +156,14 @@ By clicking on the BORG button, the option to add a link to a checklist should b
 
 ## Task 2
 
-### Bug Reports in Mozilla Firefox
-<!-- TODO by Ahmed -->
+### Bug Reports in Mozilla Firefox (3.1)
+* The problem summary of the bug report conflicts with the actual behavior shown in the program as shown in the attached screenshot provided by the reporter. In the screenshot the test email sent shows the last address added to email is displayed as each of the other email addresses but the bug report describes it as the first email address added to the email is shown for each of the others. 
+* The description of the bug report is missing some details about the configuration of the system in which the bug was found such as the build id for the application and version of Mozilla the reporter used.
+* The bug report does not differentiate the behavior between emails with both 'to's and 'cc's recipients and emails with only 'to's recipients. This is important because it will point the programer in the direction of where the problem lies (is it the first email address added regardless whether there are ‘to's and 'cc's recipients or the first email address in the 'to's list or first email address in the 'cc's list?). This could have been added to either the problem steps or the notes sections of the bug report.
+* The bug report does not mention whether or not the bug appears in different viewing formats such as opening the email its own window. This could have been mentioned in the notes section.
+* Extra notes or comments on the bug should have been added after the description to give further context to the bug such as what could be a possible fix or reasoning as to why this is an interesting bug.
 
-### Issue Reports in HBase
+### Issue Reports in HBase (3.2)
 
 #### 1. There are various kinds of issue reports in HBase (e.g., bugs, enhancements, tasks, etc.). Each issue report can be in different stages (e.g., open, closed, fixed, etc.) Among all these issue reports, which belong to the “bug” type, how many of them are there in total?
 
