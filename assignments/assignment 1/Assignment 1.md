@@ -159,7 +159,7 @@ This bug can bloat the **Links** list and heavily distracts the user.
 6. Select the project that you just named from the list
 7. notice that in the link section there are two instances of the project you just created
 
-**Hypothesis**: I believe this problem is occuring due to a repeated function call in the view controller.
+**Hypothesis**: I believe this problem is occurring due to a repeated function call in the view controller.
 
 ![A visual depiction of the problem](assets/Bug2.PNG)
 ##### New or old bug:
@@ -194,10 +194,10 @@ Add an interactable checklist option when creating or editing a new appointment
 
 ##### Feature description:
 
-As it stands, there is already an option to make checklists in the BORG calendar app. However, the checklist tab and it's contents is not accessable outside said checklist tab. We suggest that when creating or editing apointments there should be the ability to add checklists to the appointment and have them be displayed in the day and week view.
+As it stands, there is already an option to make checklists in the BORG calendar app. However, the checklist tab and it's contents is not accessible outside said checklist tab. We suggest that when creating or editing appointments there should be the ability to add checklists to the appointment and have them be displayed in the day and week view.
 
 ![Borg Button](assets/button.JPG)
-By clicking on the BORG button, the option to add a link to a checklist should be added. When done, this should trigger the application to visually add each checklist item from the selected checklist to the day and week view. Each checklist item should apear as they do in the checklist tab.
+By clicking on the BORG button, the option to add a link to a checklist should be added. When done, this should trigger the application to visually add each checklist item from the selected checklist to the day and week view. Each checklist item should appear as they do in the checklist tab.
 
 ---
 
@@ -206,7 +206,7 @@ By clicking on the BORG button, the option to add a link to a checklist should b
 ### Bug Reports in Mozilla Firefox (3.1)
 * The problem summary of the bug report conflicts with the actual behavior shown in the program as shown in the attached screenshot provided by the reporter. In the screenshot the test email sent shows the last address added to email is displayed as each of the other email addresses but the bug report describes it as the first email address added to the email is shown for each of the others. 
 * The description of the bug report is missing some details about the configuration of the system in which the bug was found such as the build id for the application and version of Mozilla the reporter used.
-* The bug report does not differentiate the behavior between emails with both 'to's and 'cc's recipients and emails with only 'to's recipients. This is important because it will point the programer in the direction of where the problem lies (is it the first email address added regardless whether there are ‘to's and 'cc's recipients or the first email address in the 'to's list or first email address in the 'cc's list?). This could have been added to either the problem steps or the notes sections of the bug report.
+* The bug report does not differentiate the behavior between emails with both 'to's and 'cc's recipients and emails with only 'to's recipients. This is important because it will point the programmer in the direction of where the problem lies (is it the first email address added regardless whether there are ‘to's and 'cc's recipients or the first email address in the 'to's list or first email address in the 'cc's list?). This could have been added to either the problem steps or the notes sections of the bug report.
 * The bug report does not mention whether or not the bug appears in different viewing formats such as opening the email its own window. This could have been mentioned in the notes section.
 * Extra notes or comments on the bug should have been added after the description to give further context to the bug such as what could be a possible fix or reasoning as to why this is an interesting bug.
 
@@ -246,7 +246,7 @@ Among the bug type issue reports the different aggregations for the resolution t
 
 #### How I Obtained the Following Results
 
-This was done using the xml.dom API in order to parse the XML files. For the first part what I did was increment through all the XML files and search for the 'type' tag in each file. I would then format it and see if the type was 'Bug' or not. After doing so I would have the amount of issues that were bugs. For the second part I would keep a dictionary to hold the count for each status in 'Bug' type issues. In the same incrementing of the files from the first part I would just add to the dictionary the value on tag 'status' if it was of type 'Bug' or not. Afterwards I could easily display all the value pairs showing the distribution of statuses in Bug type issues. Finally for the last part I made use of the datetime API in order to format the dates in the XML file. Again in the same incrementing of the files instead of considering all statuses that were of Bug type issue, I would only care about `Resolved` or `Closed` statuses. From there I would get the created time and the resolved time from the `created` and `resolved`' tags. Then I would find the difference in seconds using the two datetime objects to find the exact resolution time in seconds. Finally, I would get the different aggregations of those values and divide by the amount of seconds in a day to represent all the resolution time values in days. I did it in days because thats how JIRA represents their estimate times.
+This was done using the `xml.dom` API in order to parse the XML files. For the first part what I did was increment through all the XML files and search for the 'type' tag in each file. I would then format it and see if the type was 'Bug' or not. After doing so I would have the amount of issues that were bugs. For the second part I would keep a dictionary to hold the count for each status in 'Bug' type issues. In the same incrementing of the files from the first part I would just add to the dictionary the value on tag 'status' if it was of type 'Bug' or not. Afterwards I could easily display all the value pairs showing the distribution of statuses in Bug type issues. Finally for the last part I made use of the datetime API in order to format the dates in the XML file. Again in the same incrementing of the files instead of considering all statuses that were of Bug type issue, I would only care about `Resolved` or `Closed` statuses. From there I would get the created time and the resolved time from the `created` and `resolved`' tags. Then I would find the difference in seconds using the two datetime objects to find the exact resolution time in seconds. Finally, I would get the different aggregations of those values and divide by the amount of seconds in a day to represent all the resolution time values in days. I did it in days because that's how JIRA represents their estimate times.
 
 ##### Source Code 
 ```python
