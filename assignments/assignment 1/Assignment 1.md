@@ -132,7 +132,7 @@ Java(TM) SE Runtime Environment (build 16.0.2+7-67)
 x64-based processor
 <!-- The hardware and software configurations under which the bug was found and replicated. -->
 ##### Report type:
-Bug Report
+Coding Issue since this is unintentional behaviour.
 <!-- Is this a bug (e.g., coding error, design issue or documentation mismatch) or feature enhancement? -->
 ##### Reproducibility:
 Yes it is reproducible with any ASCII or Unicode character type labelled projects that are created and linked within the BORG Calendar program.
