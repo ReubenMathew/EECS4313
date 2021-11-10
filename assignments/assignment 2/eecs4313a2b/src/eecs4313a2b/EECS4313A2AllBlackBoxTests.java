@@ -5,7 +5,7 @@ import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(Suite.class)
-@SuiteClasses({ EquivalenceClassTest.class })
+@SuiteClasses({ EquivalenceClassTest.class, BoundaryValueTests.class })
 public class EECS4313A2AllBlackBoxTests {
 
 }
