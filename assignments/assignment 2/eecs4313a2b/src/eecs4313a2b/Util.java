@@ -32,8 +32,6 @@ public class Util {
 		if (tcal.getTime().after(dcal.getTime())) {
 			return true;
 		}
-		System.out.println(tcal.getTime());
-		System.out.println(dcal.getTime());
 
 		return false;
 	}

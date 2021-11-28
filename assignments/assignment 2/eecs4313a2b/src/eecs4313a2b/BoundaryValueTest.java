@@ -100,4 +100,21 @@ public class BoundaryValueTest {
 		Assert.assertTrue(Util.isAfter(d1, d2));
 	}
 
+	@Test
+	public void test_added_mutant1() {
+		// d1 nominal value = current time
+		Date d1 = new Date(2020854664);
+		Date d2 = new Date(2020854650);
+
+		Assert.assertFalse(Util.isAfter(d1, d2));
+	}
+
+	@Test
+	public void test_added_mutant2() {
+		// d1 nominal value = current time
+		Date d1 = new Date(86400001);
+		Date d2 = new Date(86400000);
+
+		Assert.assertFalse(Util.isAfter(d1, d2));
+	}
 }
